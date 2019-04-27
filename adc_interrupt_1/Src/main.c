@@ -96,7 +96,8 @@ int main(void)
   MX_GPIO_Init();
   MX_ADC_Init();
   /* USER CODE BEGIN 2 */
-	init_app_adc();
+	adc1_init();
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
